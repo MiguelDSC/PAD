@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Project Agile Development - Framework</title>
+
+    <!-- Load our stylesheets -->
+    <link href="assets/css/home.css" rel="stylesheet"/>
+    <link href="assets/vendors/bootstrap/bootstrap.min.css" rel="stylesheet"/>
+    <link href="assets/css/default.css" rel="stylesheet"/>
+    <link href="assets/css/navbar.css" rel="stylesheet"/>
+    <link href="assets/css/profile.css" rel="stylesheet"/>
+    <link href="assets/css/statistics.css" rel="stylesheet"/>
+    <link href="assets/css/goals.css" rel="stylesheet"/>
+    <link href="assets/css/social.css" rel="stylesheet"/>
+    <link href="assets/css/caretaker/patienten.css" rel="stylesheet"/>
+
+    <!-- Load our font from Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- Load fontawesome through CDN for now -->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <!-- Load jQuery 3.4.1 -->
+    <script src="assets/vendors/jquery/jquery-3.4.1.min.js"></script>
+    <script src="assets/vendors/bootstrap/bootstrap.bundle.min.js"></script>
+
+    <!-- Load Chart js and Moment js for statistics -->
+    <script src="assets/vendors/chart.js/dist/chart.min.js"></script>
+    <script src="assets/vendors/moment/moment.min.js"></script>
+
+    <!-- Prepare our application, load things in the proper order. -->
+    <script src="assets/js/utils/sessionManager.js"></script>
+    <script src="assets/js/utils/networkManager.js"></script>
+
+    <!-- Controllers -->
+    <script src="assets/js/controllers/categories/categoryController.js"></script>
+    <script src="assets/js/controllers/categories/loginController.js"></script>
+    <script src="assets/js/controllers/navbarController.js"></script>
+    <script src="assets/js/controllers/welcomeController.js"></script>
+    <script src="assets/js/controllers/uploadController.js"></script>
+    <script src="assets/js/controllers/categories/caretakerController.js"></script>
+    <script src="assets/js/controllers/categories/caretakerProfileController.js"></script>
+
+    <script src="assets/js/controllers/categories/homeController.js"></script>
+    <script src="assets/js/controllers/categories/goalsController.js"></script>
+    <script src="assets/js/controllers/categories/statisticsController.js"></script>
+    <script src="assets/js/controllers/categories/profileController.js"></script>
+    <script src="assets/js/controllers/categories/socialController.js"></script>
+    <script src="assets/js/controllers/categories/patientsController.js"></script>
+
+    <!-- Component -->
+    <script src="assets/js/component/progressComponent.js"></script>
+
+    <!-- Repositories -->
+    <script src="assets/js/repositories/roomExampleRepository.js"></script>
+    <script src="assets/js/repositories/userRepository.js"></script>
+    <script src="assets/js/repositories/messagesRepository.js"></script>
+    <script src="assets/js/repositories/pamRepository.js"></script>
+    <script src="assets/js/repositories/rehabilitatorRepository.js"></script>
+    <script src="assets/js/repositories/caretakerRepository.js"></script>
+
+    <!-- utils   -->
+    <script src="assets/js/utils/utils.js"></script>
+
+
+    <!-- Start of our application! -->
+    <script src="api/config.js"></script>
+    <script src="assets/js/app.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <div class="sidebar">
+        <!-- Loads navigation via JS -->
+    </div>
+
+    <!-- Page Content -->
+    <div class="content">
+        <!-- Loads content via JS -->
+    </div>
+
+<!--    <footer id="sticky-footer" class="py-2 bg-dark text-white-50">-->
+<!--        <div class="container text-center">-->
+<!--            <small>Copyright &copy; Hogeschool van Amsterdam HBO-ICT 2020 😂</small>-->
+<!--        </div>-->
+<!--    </footer>-->
+</body>
+</html>

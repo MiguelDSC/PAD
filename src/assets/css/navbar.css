@@ -1,0 +1,86 @@
+/* --- NAVIGATION GENERAL --- */
+.navbar {
+    padding: 0 0 0 0;
+}
+
+/* --- NAVIGATION TOP --- */
+.navbar-brand {
+    padding-top: 0;
+}
+
+#header-title {
+    padding: 0 8px 0 0;
+}
+
+#navigation-top {
+    font-family: "Ropa Sans", sans-serif;
+    padding-left: 8px;
+    border-bottom: 8px solid var(--color-category-current);
+}
+
+.nav-link {
+    border: none;
+    background-color: #ffffff;
+    font-size: 30px;
+    /* !important required for navigation padding */
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+}
+
+.nav-link:hover {
+    background-color: var(--color-hover-element);
+}
+
+/* For accessibility  */
+.nav-link:focus {
+    outline: none;
+    background-color: var(--color-hover-element);
+}
+
+.navbar-toggler { /* Mobile hambuger-menu */
+    margin: 8px 16px 8px 0;
+    border: none;
+    background-color: var(--color-category-current);
+    font-size: 30px;
+}
+
+/* --- NAVIGATION BOTTOM --- */
+#navigation-bottom{
+    font-family: "Ropa Sans", sans-serif;
+}
+
+#navigation-bottom .navbar-nav > li {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 16px;
+    line-height: 0.9;
+}
+
+#navigation-bottom .navbar-nav > li :hover {
+    background-color: var(--color-hover-element);
+}
+
+.bottom-nav-element[selected] {
+    /* !important prevents styling change when hovering over element  */
+    color: #ffffff !important;
+    background-color: var(--color-category-current) !important;
+}
+
+/* --- REPONSIVENESS --- */
+@media (max-width: 992px) {
+    #navigation-bottom .navbar-nav > li {
+        padding: 8px 0 0 16px;
+    }
+
+    .navbar-nav:last-child {
+       padding-bottom: 8px;
+    }
+
+    #navigation-bottom {
+        border-bottom: 8px solid var(--color-category-current);
+    }
+}
+
+
+
+

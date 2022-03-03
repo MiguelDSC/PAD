@@ -1,0 +1,719 @@
+Installing packages...
+npm info it worked if it ends with ok
+npm info using npm@6.4.1
+npm info using node@v10.15.3
+npm timing npm Completed in 107ms
+npm info ok 
+npm info it worked if it ends with ok
+npm info using npm@6.4.1
+npm info using node@v10.15.3
+npm info lifecycle pad-server-app@1.0.0~preinstall: pad-server-app@1.0.0
+npm timing stage:loadCurrentTree Completed in 8ms
+npm timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+npm timing stage:loadIdealTree:loadShrinkwrap Completed in 86ms
+npm http fetch GET 200 https://registry.npmjs.org/cypress 1138ms
+npm http fetch GET 200 https://registry.npmjs.org/cypress/-/cypress-4.12.1.tgz 115ms
+npm http fetch GET 200 https://registry.npmjs.org/arch 66ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress%2flistr-verbose-renderer 73ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-table3 74ms
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fsizzle 85ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress%2fxvfb 95ms
+npm http fetch GET 200 https://registry.npmjs.org/arch/-/arch-2.2.0.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/@types%2fsinonjs__fake-timers 111ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-table3/-/cli-table3-0.5.1.tgz 44ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress/listr-verbose-renderer/-/listr-verbose-renderer-0.4.1.tgz 56ms
+npm http fetch GET 200 https://registry.npmjs.org/@types/sizzle/-/sizzle-2.3.2.tgz 54ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress%2frequest 147ms
+npm http fetch GET 200 https://registry.npmjs.org/commander 47ms
+npm http fetch GET 200 https://registry.npmjs.org/@types/sinonjs__fake-timers/-/sinonjs__fake-timers-6.0.2.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress/xvfb/-/xvfb-1.2.4.tgz 61ms
+npm http fetch GET 200 https://registry.npmjs.org/common-tags 44ms
+npm http fetch GET 200 https://registry.npmjs.org/debug 37ms
+npm http fetch GET 200 https://registry.npmjs.org/commander/-/commander-4.1.1.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/eventemitter2 74ms
+npm http fetch GET 200 https://registry.npmjs.org/executable 56ms
+npm http fetch GET 200 https://registry.npmjs.org/common-tags/-/common-tags-1.8.0.tgz 54ms
+npm http fetch GET 200 https://registry.npmjs.org/execa 60ms
+npm http fetch GET 200 https://registry.npmjs.org/debug/-/debug-4.3.1.tgz 56ms
+npm http fetch GET 200 https://registry.npmjs.org/@cypress/request/-/request-2.88.5.tgz 80ms
+npm http fetch GET 200 https://registry.npmjs.org/extract-zip 43ms
+npm http fetch GET 200 https://registry.npmjs.org/execa/-/execa-1.0.0.tgz 42ms
+npm http fetch GET 200 https://registry.npmjs.org/fs-extra 38ms
+npm http fetch GET 200 https://registry.npmjs.org/eventemitter2/-/eventemitter2-6.4.4.tgz 52ms
+npm http fetch GET 200 https://registry.npmjs.org/extract-zip/-/extract-zip-1.7.0.tgz 44ms
+npm http fetch GET 200 https://registry.npmjs.org/executable/-/executable-4.1.1.tgz 53ms
+npm http fetch GET 200 https://registry.npmjs.org/is-ci 41ms
+npm http fetch GET 200 https://registry.npmjs.org/getos 50ms
+npm http fetch GET 200 https://registry.npmjs.org/fs-extra/-/fs-extra-8.1.0.tgz 45ms
+npm http fetch GET 200 https://registry.npmjs.org/is-ci/-/is-ci-2.0.0.tgz 39ms
+npm http fetch GET 200 https://registry.npmjs.org/getos/-/getos-3.2.1.tgz 35ms
+npm http fetch GET 200 https://registry.npmjs.org/is-installed-globally 41ms
+npm http fetch GET 200 https://registry.npmjs.org/lazy-ass 40ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash 38ms
+npm http fetch GET 200 https://registry.npmjs.org/listr 43ms
+npm http fetch GET 200 https://registry.npmjs.org/log-symbols 76ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz 80ms
+npm http fetch GET 200 https://registry.npmjs.org/listr/-/listr-0.14.3.tgz 79ms
+npm http fetch GET 200 https://registry.npmjs.org/moment 77ms
+npm http fetch GET 200 https://registry.npmjs.org/is-installed-globally/-/is-installed-globally-0.3.2.tgz 87ms
+npm http fetch GET 200 https://registry.npmjs.org/lazy-ass/-/lazy-ass-1.6.0.tgz 86ms
+npm http fetch GET 200 https://registry.npmjs.org/ospath 83ms
+npm http fetch GET 200 https://registry.npmjs.org/check-more-types 419ms
+npm http fetch GET 200 https://registry.npmjs.org/log-symbols/-/log-symbols-3.0.0.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/ospath/-/ospath-1.2.2.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/request-progress 31ms
+npm http fetch GET 200 https://registry.npmjs.org/pretty-bytes 76ms
+npm http fetch GET 200 https://registry.npmjs.org/supports-color 76ms
+npm http fetch GET 200 https://registry.npmjs.org/tmp 59ms
+npm http fetch GET 200 https://registry.npmjs.org/moment/-/moment-2.29.1.tgz 90ms
+npm http fetch GET 200 https://registry.npmjs.org/request-progress/-/request-progress-3.0.0.tgz 54ms
+npm http fetch GET 200 https://registry.npmjs.org/check-more-types/-/check-more-types-2.24.0.tgz 80ms
+npm http fetch GET 200 https://registry.npmjs.org/ramda 87ms
+npm http fetch GET 200 https://registry.npmjs.org/untildify 53ms
+npm http fetch GET 200 https://registry.npmjs.org/pretty-bytes/-/pretty-bytes-5.6.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/tmp/-/tmp-0.1.0.tgz 63ms
+npm http fetch GET 200 https://registry.npmjs.org/yauzl 54ms
+npm http fetch GET 200 https://registry.npmjs.org/ramda/-/ramda-0.26.1.tgz 61ms
+npm http fetch GET 200 https://registry.npmjs.org/object-assign 55ms
+npm http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-7.2.0.tgz 70ms
+npm http fetch GET 200 https://registry.npmjs.org/url 57ms
+npm http fetch GET 200 https://registry.npmjs.org/yauzl/-/yauzl-2.10.0.tgz 35ms
+npm http fetch GET 200 https://registry.npmjs.org/chalk 30ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-cursor 36ms
+npm http fetch GET 200 https://registry.npmjs.org/url/-/url-0.11.0.tgz 41ms
+npm http fetch GET 200 https://registry.npmjs.org/colors 56ms
+npm http fetch GET 200 https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz 50ms
+npm http fetch GET 200 https://registry.npmjs.org/date-fns 50ms
+npm http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-1.1.3.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/debug/-/debug-3.2.7.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-cursor/-/cli-cursor-1.0.2.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/figures 33ms
+npm http fetch GET 200 https://registry.npmjs.org/colors/-/colors-1.4.0.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash.once 43ms
+npm http fetch GET 200 https://registry.npmjs.org/ms 55ms
+npm http fetch GET 200 https://registry.npmjs.org/aws-sign2 43ms
+npm http fetch GET 200 https://registry.npmjs.org/caseless 40ms
+npm http fetch GET 200 https://registry.npmjs.org/figures/-/figures-1.7.0.tgz 46ms
+npm http fetch GET 200 https://registry.npmjs.org/date-fns/-/date-fns-1.30.1.tgz 66ms
+npm http fetch GET 200 https://registry.npmjs.org/aws4 45ms
+npm http fetch GET 200 https://registry.npmjs.org/lodash.once/-/lodash.once-4.1.1.tgz 44ms
+npm http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.2.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/caseless/-/caseless-0.12.0.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/untildify/-/untildify-4.0.0.tgz 221ms
+npm http fetch GET 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.7.0.tgz 39ms
+npm http fetch GET 200 https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/extend 35ms
+npm http fetch GET 200 https://registry.npmjs.org/combined-stream 41ms
+npm http fetch GET 200 https://registry.npmjs.org/forever-agent 38ms
+npm http fetch GET 200 https://registry.npmjs.org/http-signature 24ms
+npm http fetch GET 200 https://registry.npmjs.org/extend/-/extend-3.0.2.tgz 29ms
+npm http fetch GET 200 https://registry.npmjs.org/form-data 35ms
+npm http fetch GET 200 https://registry.npmjs.org/isstream 32ms
+npm http fetch GET 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.8.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/har-validator 48ms
+npm http fetch GET 200 https://registry.npmjs.org/http-signature/-/http-signature-1.2.0.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz 41ms
+npm http fetch GET 200 https://registry.npmjs.org/form-data/-/form-data-2.3.3.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/oauth-sign 28ms
+npm http fetch GET 200 https://registry.npmjs.org/har-validator/-/har-validator-5.1.5.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/is-typedarray 94ms
+npm WARN deprecated har-validator@5.1.5: this library is no longer supported
+npm http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 68ms
+npm http fetch GET 200 https://registry.npmjs.org/performance-now 52ms
+npm http fetch GET 200 https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz 66ms
+npm http fetch GET 200 https://registry.npmjs.org/qs 48ms
+npm http fetch GET 200 https://registry.npmjs.org/tough-cookie 43ms
+npm http fetch GET 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.9.0.tgz 41ms
+npm http fetch GET 200 https://registry.npmjs.org/performance-now/-/performance-now-2.1.0.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/tunnel-agent 43ms
+npm http fetch GET 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz 42ms
+npm http fetch GET 200 https://registry.npmjs.org/is-typedarray/-/is-typedarray-1.0.0.tgz 45ms
+npm http fetch GET 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.5.0.tgz 41ms
+npm http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.5.2.tgz 52ms
+npm http fetch GET 200 https://registry.npmjs.org/cross-spawn 44ms
+npm http fetch GET 200 https://registry.npmjs.org/get-stream 27ms
+npm http fetch GET 200 https://registry.npmjs.org/uuid 56ms
+npm http fetch GET 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.6.0.tgz 30ms
+npm http fetch GET 200 https://registry.npmjs.org/concat-stream 31ms
+npm http fetch GET 200 https://registry.npmjs.org/pify 28ms
+npm http fetch GET 200 https://registry.npmjs.org/mkdirp 34ms
+npm http fetch GET 200 https://registry.npmjs.org/get-stream/-/get-stream-4.1.0.tgz 26ms
+npm http fetch GET 200 https://registry.npmjs.org/cross-spawn/-/cross-spawn-6.0.5.tgz 39ms
+npm http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-3.4.0.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/pify/-/pify-2.3.0.tgz 25ms
+npm http fetch GET 200 https://registry.npmjs.org/concat-stream/-/concat-stream-1.6.2.tgz 28ms
+npm http fetch GET 200 https://registry.npmjs.org/jsonfile 49ms
+npm http fetch GET 200 https://registry.npmjs.org/universalify 36ms
+npm http fetch GET 200 https://registry.npmjs.org/async 26ms
+npm http fetch GET 200 https://registry.npmjs.org/ci-info 34ms
+npm http fetch GET 200 https://registry.npmjs.org/jsonfile/-/jsonfile-4.0.0.tgz 28ms
+npm http fetch GET 200 https://registry.npmjs.org/global-dirs 32ms
+npm http fetch GET 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.5.tgz 56ms
+npm http fetch GET 200 https://registry.npmjs.org/is-path-inside 32ms
+npm http fetch GET 200 https://registry.npmjs.org/async/-/async-3.2.0.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/global-dirs/-/global-dirs-2.1.0.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/ci-info/-/ci-info-2.0.0.tgz 40ms
+npm http fetch GET 200 https://registry.npmjs.org/universalify/-/universalify-0.1.2.tgz 64ms
+npm http fetch GET 200 https://registry.npmjs.org/@samverschueren%2fstream-to-observable 61ms
+npm http fetch GET 200 https://registry.npmjs.org/is-promise 37ms
+npm http fetch GET 200 https://registry.npmjs.org/is-observable 41ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-silent-renderer 27ms
+npm http fetch GET 200 https://registry.npmjs.org/is-path-inside/-/is-path-inside-3.0.3.tgz 41ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-update-renderer 33ms
+npm http fetch GET 200 https://registry.npmjs.org/is-observable/-/is-observable-1.1.0.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/p-map 41ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-verbose-renderer 43ms
+npm http fetch GET 200 https://registry.npmjs.org/is-promise/-/is-promise-2.2.2.tgz 40ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-silent-renderer/-/listr-silent-renderer-1.1.1.tgz 44ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-update-renderer/-/listr-update-renderer-0.5.0.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/rxjs 47ms
+npm http fetch GET 200 https://registry.npmjs.org/@samverschueren/stream-to-observable/-/stream-to-observable-0.3.1.tgz 70ms
+npm http fetch GET 200 https://registry.npmjs.org/has-flag 28ms
+npm http fetch GET 200 https://registry.npmjs.org/p-map/-/p-map-2.1.0.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/listr-verbose-renderer/-/listr-verbose-renderer-0.5.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/throttleit 43ms
+npm http fetch GET 200 https://registry.npmjs.org/rimraf 44ms
+npm http fetch GET 200 https://registry.npmjs.org/buffer-crc32 32ms
+npm http fetch GET 200 https://registry.npmjs.org/has-flag/-/has-flag-4.0.0.tgz 107ms
+npm http fetch GET 200 https://registry.npmjs.org/rxjs/-/rxjs-6.6.7.tgz 123ms
+npm http fetch GET 200 https://registry.npmjs.org/querystring 105ms
+npm http fetch GET 200 https://registry.npmjs.org/punycode 107ms
+npm http fetch GET 200 https://registry.npmjs.org/rimraf/-/rimraf-2.7.1.tgz 86ms
+npm http fetch GET 200 https://registry.npmjs.org/throttleit/-/throttleit-1.0.0.tgz 99ms
+npm http fetch GET 200 https://registry.npmjs.org/fd-slicer 123ms
+npm http fetch GET 200 https://registry.npmjs.org/buffer-crc32/-/buffer-crc32-0.2.13.tgz 85ms
+npm http fetch GET 200 https://registry.npmjs.org/fd-slicer/-/fd-slicer-1.1.0.tgz 22ms
+npm http fetch GET 200 https://registry.npmjs.org/strip-ansi 29ms
+npm http fetch GET 200 https://registry.npmjs.org/supports-color/-/supports-color-2.0.0.tgz 29ms
+npm http fetch GET 200 https://registry.npmjs.org/querystring/-/querystring-0.2.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-styles 37ms
+npm http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.3.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-1.3.2.tgz 44ms
+npm http fetch GET 200 https://registry.npmjs.org/has-ansi 42ms
+npm http fetch GET 200 https://registry.npmjs.org/restore-cursor 27ms
+npm http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-3.0.1.tgz 26ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.2.1.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/assert-plus 29ms
+npm http fetch GET 200 https://registry.npmjs.org/restore-cursor/-/restore-cursor-1.0.1.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/sshpk 38ms
+npm http fetch GET 200 https://registry.npmjs.org/jsprim 44ms
+npm http fetch GET 200 https://registry.npmjs.org/asynckit 29ms
+npm http fetch GET 200 https://registry.npmjs.org/delayed-stream 55ms
+npm http fetch GET 200 https://registry.npmjs.org/has-ansi/-/has-ansi-2.0.0.tgz 49ms
+npm http fetch GET 200 https://registry.npmjs.org/ajv 33ms
+npm http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/sshpk/-/sshpk-1.16.1.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/jsprim/-/jsprim-1.4.1.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/psl 38ms
+npm http fetch GET 200 https://registry.npmjs.org/ajv/-/ajv-6.12.6.tgz 39ms
+npm http fetch GET 200 https://registry.npmjs.org/har-schema 73ms
+npm http fetch GET 200 https://registry.npmjs.org/punycode/-/punycode-2.1.1.tgz 34ms
+npm http fetch GET 200 https://registry.npmjs.org/pump 32ms
+npm http fetch GET 200 https://registry.npmjs.org/buffer-from 32ms
+npm http fetch GET 200 https://registry.npmjs.org/nice-try 43ms
+npm http fetch GET 200 https://registry.npmjs.org/typedarray 43ms
+npm http fetch GET 200 https://registry.npmjs.org/pump/-/pump-3.0.0.tgz 24ms
+npm http fetch GET 200 https://registry.npmjs.org/har-schema/-/har-schema-2.0.0.tgz 29ms
+npm http fetch GET 200 https://registry.npmjs.org/psl/-/psl-1.8.0.tgz 59ms
+npm http fetch GET 200 https://registry.npmjs.org/ini 38ms
+npm http fetch GET 200 https://registry.npmjs.org/buffer-from/-/buffer-from-1.1.1.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/symbol-observable 43ms
+npm http fetch GET 200 https://registry.npmjs.org/nice-try/-/nice-try-1.0.5.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-truncate 26ms
+npm http fetch GET 200 https://registry.npmjs.org/indent-string 28ms
+npm http fetch GET 200 https://registry.npmjs.org/elegant-spinner 38ms
+npm http fetch GET 200 https://registry.npmjs.org/log-symbols/-/log-symbols-1.0.2.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/symbol-observable/-/symbol-observable-1.2.0.tgz 29ms
+npm http fetch GET 200 https://registry.npmjs.org/log-update 31ms
+npm http fetch GET 200 https://registry.npmjs.org/ini/-/ini-1.3.7.tgz 47ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-truncate/-/cli-truncate-0.2.1.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/any-observable 47ms
+npm http fetch GET 200 https://registry.npmjs.org/indent-string/-/indent-string-3.2.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/elegant-spinner/-/elegant-spinner-1.0.1.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/figures/-/figures-2.0.0.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/tslib 30ms
+npm http fetch GET 200 https://registry.npmjs.org/cli-cursor/-/cli-cursor-2.1.0.tgz 42ms
+npm http fetch GET 200 https://registry.npmjs.org/glob 31ms
+npm http fetch GET 200 https://registry.npmjs.org/log-update/-/log-update-2.3.0.tgz 46ms
+npm http fetch GET 200 https://registry.npmjs.org/pend 29ms
+npm http fetch GET 200 https://registry.npmjs.org/any-observable/-/any-observable-0.3.0.tgz 39ms
+npm http fetch GET 200 https://registry.npmjs.org/tslib/-/tslib-1.14.1.tgz 30ms
+npm http fetch GET 200 https://registry.npmjs.org/exit-hook 28ms
+npm http fetch GET 200 https://registry.npmjs.org/glob/-/glob-7.1.6.tgz 28ms
+npm http fetch GET 200 https://registry.npmjs.org/onetime 33ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-regex 45ms
+npm http fetch GET 200 https://registry.npmjs.org/asn1 37ms
+npm http fetch GET 200 https://registry.npmjs.org/pend/-/pend-1.2.0.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/dashdash 42ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-2.1.1.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/exit-hook/-/exit-hook-1.1.1.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/asn1/-/asn1-0.2.4.tgz 26ms
+npm http fetch GET 200 https://registry.npmjs.org/jsbn 41ms
+npm http fetch GET 200 https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz 6ms (from cache)
+npm http fetch GET 200 https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz 47ms
+npm http fetch GET 200 https://registry.npmjs.org/getpass 58ms
+npm http fetch GET 200 https://registry.npmjs.org/tweetnacl 45ms
+npm http fetch GET 200 https://registry.npmjs.org/dashdash/-/dashdash-1.14.1.tgz 35ms
+npm http fetch GET 200 https://registry.npmjs.org/jsbn/-/jsbn-0.1.1.tgz 29ms
+npm http fetch GET 200 https://registry.npmjs.org/json-schema 25ms
+npm http fetch GET 200 https://registry.npmjs.org/extsprintf 27ms
+npm http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf 40ms
+npm http fetch GET 200 https://registry.npmjs.org/getpass/-/getpass-0.1.7.tgz 27ms
+npm http fetch GET 200 https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.5.tgz 26ms
+npm http fetch GET 200 https://registry.npmjs.org/ecc-jsbn 59ms
+npm http fetch GET 200 https://registry.npmjs.org/verror 32ms
+npm http fetch GET 200 https://registry.npmjs.org/fast-deep-equal 33ms
+npm http fetch GET 200 https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz 33ms
+npm http fetch GET 200 https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.2.tgz 35ms
+npm http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 31ms
+npm http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 30ms
+npm http fetch GET 200 https://registry.npmjs.org/json-schema/-/json-schema-0.2.3.tgz 48ms
+npm http fetch GET 200 https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.2.tgz 40ms
+npm http fetch GET 200 https://registry.npmjs.org/verror/-/verror-1.10.0.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/uri-js 28ms
+npm http fetch GET 200 https://registry.npmjs.org/end-of-stream 29ms
+npm http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify/-/fast-json-stable-stringify-2.1.0.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/fast-deep-equal/-/fast-deep-equal-3.1.3.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/once 29ms
+npm http fetch GET 200 https://registry.npmjs.org/json-schema-traverse/-/json-schema-traverse-0.4.1.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/string-width 29ms
+npm http fetch GET 200 https://registry.npmjs.org/end-of-stream/-/end-of-stream-1.4.4.tgz 24ms
+npm http fetch GET 200 https://registry.npmjs.org/slice-ansi 41ms
+npm http fetch GET 200 https://registry.npmjs.org/uri-js/-/uri-js-4.4.1.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/restore-cursor/-/restore-cursor-2.0.0.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/wrap-ansi 22ms
+npm http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-escapes 54ms
+npm http fetch GET 200 https://registry.npmjs.org/string-width/-/string-width-1.0.2.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/inflight 36ms
+npm http fetch GET 200 https://registry.npmjs.org/slice-ansi/-/slice-ansi-0.0.4.tgz 37ms
+npm http fetch GET 200 https://registry.npmjs.org/fs.realpath 53ms
+npm http fetch GET 200 https://registry.npmjs.org/once/-/once-1.4.0.tgz 49ms
+npm http fetch GET 200 https://registry.npmjs.org/path-is-absolute 44ms
+npm http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-3.0.1.tgz 48ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-escapes/-/ansi-escapes-3.2.0.tgz 42ms
+npm http fetch GET 200 https://registry.npmjs.org/inflight/-/inflight-1.0.6.tgz 30ms
+npm http fetch GET 200 https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz 43ms
+npm http fetch GET 200 https://registry.npmjs.org/onetime/-/onetime-2.0.1.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.1.tgz 38ms
+npm http fetch GET 200 https://registry.npmjs.org/wrappy 36ms
+npm http fetch GET 200 https://registry.npmjs.org/extsprintf/-/extsprintf-1.4.0.tgz 69ms
+npm http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 33ms
+npm http fetch GET 200 https://registry.npmjs.org/code-point-at 46ms
+npm http fetch GET 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-4.0.0.tgz 32ms
+npm http fetch GET 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.2.tgz 25ms
+npm http fetch GET 200 https://registry.npmjs.org/code-point-at/-/code-point-at-1.1.0.tgz 31ms
+npm http fetch GET 200 https://registry.npmjs.org/mimic-fn 49ms
+npm http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point/-/is-fullwidth-code-point-1.0.0.tgz 47ms
+npm http fetch GET 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-3.0.0.tgz 60ms
+npm http fetch GET 200 https://registry.npmjs.org/mimic-fn/-/mimic-fn-1.2.0.tgz 35ms
+npm http fetch GET 200 https://registry.npmjs.org/number-is-nan 35ms
+npm http fetch GET 200 https://registry.npmjs.org/number-is-nan/-/number-is-nan-1.0.1.tgz 30ms
+npm http fetch GET 200 https://registry.npmjs.org/cachedir 3060ms
+npm http fetch GET 200 https://registry.npmjs.org/bluebird 3078ms
+npm http fetch GET 200 https://registry.npmjs.org/cachedir/-/cachedir-2.3.0.tgz 36ms
+npm http fetch GET 200 https://registry.npmjs.org/bluebird/-/bluebird-3.7.2.tgz 31ms
+npm timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 5010ms
+npm timing stage:loadIdealTree Completed in 5155ms
+npm timing stage:generateActionsToTake Completed in 20ms
+npm timing audit compress Completed in 24ms
+npm info audit Submitting payload of 22110bytes
+npm http fetch GET 200 https://registry.npmjs.org/content-type/-/content-type-1.0.4.tgz 91ms
+npm http fetch GET 200 https://registry.npmjs.org/array-flatten/-/array-flatten-1.1.1.tgz 98ms
+npm http fetch GET 200 https://registry.npmjs.org/bytes/-/bytes-3.1.0.tgz 93ms
+npm http fetch GET 200 https://registry.npmjs.org/cookie-signature/-/cookie-signature-1.0.6.tgz 98ms
+npm http fetch GET 200 https://registry.npmjs.org/depd/-/depd-1.1.2.tgz 95ms
+npm http fetch GET 200 https://registry.npmjs.org/encodeurl/-/encodeurl-1.0.2.tgz 95ms
+npm http fetch GET 200 https://registry.npmjs.org/destroy/-/destroy-1.0.4.tgz 94ms
+npm http fetch GET 200 https://registry.npmjs.org/bignumber.js/-/bignumber.js-7.2.1.tgz 104ms
+npm http fetch GET 200 https://registry.npmjs.org/cookie/-/cookie-0.4.0.tgz 99ms
+npm http fetch GET 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.2.tgz 102ms
+npm http fetch GET 200 https://registry.npmjs.org/ipaddr.js/-/ipaddr.js-1.9.1.tgz 196ms
+npm http fetch GET 200 https://registry.npmjs.org/media-typer/-/media-typer-0.3.0.tgz 217ms
+npm http fetch GET 200 https://registry.npmjs.org/etag/-/etag-1.8.1.tgz 223ms
+npm http fetch GET 200 https://registry.npmjs.org/forwarded/-/forwarded-0.1.2.tgz 223ms
+npm http fetch GET 200 https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.1.tgz 209ms
+npm http fetch GET 200 https://registry.npmjs.org/methods/-/methods-1.1.2.tgz 221ms
+npm http fetch GET 200 https://registry.npmjs.org/basic-auth/-/basic-auth-2.0.1.tgz 210ms
+npm http fetch GET 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.28.tgz 212ms
+npm http fetch GET 200 https://registry.npmjs.org/toidentifier/-/toidentifier-1.0.0.tgz 209ms
+npm http fetch GET 200 https://registry.npmjs.org/merge-descriptors/-/merge-descriptors-1.0.1.tgz 223ms
+npm http fetch GET 200 https://registry.npmjs.org/accepts/-/accepts-1.3.7.tgz 213ms
+npm http fetch GET 200 https://registry.npmjs.org/setprototypeof/-/setprototypeof-1.1.1.tgz 211ms
+npm http fetch GET 200 https://registry.npmjs.org/proxy-addr/-/proxy-addr-2.0.6.tgz 212ms
+npm http fetch GET 200 https://registry.npmjs.org/inherits/-/inherits-2.0.3.tgz 223ms
+npm http fetch GET 200 https://registry.npmjs.org/on-headers/-/on-headers-1.0.2.tgz 213ms
+npm http fetch GET 200 https://registry.npmjs.org/mime/-/mime-1.6.0.tgz 227ms
+npm http fetch GET 200 https://registry.npmjs.org/negotiator/-/negotiator-0.6.2.tgz 219ms
+npm http fetch GET 200 https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz 216ms
+npm http fetch GET 200 https://registry.npmjs.org/content-disposition/-/content-disposition-0.5.3.tgz 217ms
+npm http fetch GET 200 https://registry.npmjs.org/dicer/-/dicer-0.3.0.tgz 216ms
+npm http fetch GET 200 https://registry.npmjs.org/safe-buffer/-/safe-buffer-5.1.2.tgz 217ms
+npm http fetch GET 200 https://registry.npmjs.org/isarray/-/isarray-1.0.0.tgz 230ms
+npm http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.1.1.tgz 218ms
+npm http fetch GET 200 https://registry.npmjs.org/escape-html/-/escape-html-1.0.3.tgz 234ms
+npm http fetch GET 200 https://registry.npmjs.org/on-finished/-/on-finished-2.3.0.tgz 222ms
+npm http fetch GET 200 https://registry.npmjs.org/ms/-/ms-2.0.0.tgz 228ms
+npm http fetch GET 200 https://registry.npmjs.org/qs/-/qs-6.7.0.tgz 229ms
+npm http fetch GET 200 https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz 230ms
+npm http fetch GET 200 https://registry.npmjs.org/statuses/-/statuses-1.5.0.tgz 228ms
+npm http fetch GET 200 https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz 231ms
+npm http fetch GET 200 https://registry.npmjs.org/streamsearch/-/streamsearch-0.1.2.tgz 231ms
+npm http fetch GET 200 https://registry.npmjs.org/fresh/-/fresh-0.5.2.tgz 244ms
+npm http fetch GET 200 https://registry.npmjs.org/morgan/-/morgan-1.9.1.tgz 125ms
+npm http fetch GET 200 https://registry.npmjs.org/ee-first/-/ee-first-1.1.1.tgz 257ms
+npm http fetch GET 200 https://registry.npmjs.org/utils-merge/-/utils-merge-1.0.1.tgz 97ms
+npm http fetch GET 200 https://registry.npmjs.org/express/-/express-4.17.1.tgz 117ms
+npm http fetch GET 200 https://registry.npmjs.org/vary/-/vary-1.1.2.tgz 117ms
+npm http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-2.3.6.tgz 102ms
+npm http fetch GET 200 https://registry.npmjs.org/mysql/-/mysql-2.17.1.tgz 143ms
+npm http fetch GET 200 https://registry.npmjs.org/util-deprecate/-/util-deprecate-1.0.2.tgz 66ms
+npm http fetch GET 200 https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-2.0.1.tgz 257ms
+npm http fetch GET 200 https://registry.npmjs.org/serve-static/-/serve-static-1.14.1.tgz 52ms
+npm http fetch GET 200 https://registry.npmjs.org/type-is/-/type-is-1.6.18.tgz 53ms
+npm http fetch GET 200 https://registry.npmjs.org/finalhandler/-/finalhandler-1.1.2.tgz 55ms
+npm http fetch GET 200 https://registry.npmjs.org/unpipe/-/unpipe-1.0.0.tgz 54ms
+npm http fetch GET 200 https://registry.npmjs.org/body-parser/-/body-parser-1.19.0.tgz 60ms
+npm http fetch GET 200 https://registry.npmjs.org/http-errors/-/http-errors-1.7.2.tgz 57ms
+npm timing audit submit Completed in 402ms
+npm http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 401ms
+npm timing audit body Completed in 0ms
+npm http fetch GET 200 https://registry.npmjs.org/raw-body/-/raw-body-2.4.0.tgz 64ms
+npm http fetch GET 200 https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz 312ms
+npm http fetch GET 200 https://registry.npmjs.org/busboy/-/busboy-0.3.1.tgz 311ms
+npm http fetch GET 200 https://registry.npmjs.org/send/-/send-0.17.1.tgz 93ms
+npm http fetch GET 200 https://registry.npmjs.org/express-fileupload/-/express-fileupload-1.1.6.tgz 214ms
+npm http fetch GET 200 https://registry.npmjs.org/mime-db/-/mime-db-1.45.0.tgz 383ms
+npm http fetch GET 200 https://registry.npmjs.org/debug/-/debug-2.6.9.tgz 3080ms
+npm http fetch GET 200 https://registry.npmjs.org/string_decoder/-/string_decoder-1.1.1.tgz 3084ms
+npm http fetch GET 200 https://registry.npmjs.org/range-parser/-/range-parser-1.2.1.tgz 3085ms
+npm timing action:extract Completed in 3213ms
+npm timing action:finalize Completed in 55ms
+npm timing action:refresh-package-json Completed in 121ms
+npm info lifecycle array-flatten@1.1.1~preinstall: array-flatten@1.1.1
+npm info lifecycle bignumber.js@7.2.1~preinstall: bignumber.js@7.2.1
+npm info lifecycle bytes@3.1.0~preinstall: bytes@3.1.0
+npm info lifecycle content-type@1.0.4~preinstall: content-type@1.0.4
+npm info lifecycle cookie@0.4.0~preinstall: cookie@0.4.0
+npm info lifecycle cookie-signature@1.0.6~preinstall: cookie-signature@1.0.6
+npm info lifecycle core-util-is@1.0.2~preinstall: core-util-is@1.0.2
+npm info lifecycle depd@1.1.2~preinstall: depd@1.1.2
+npm info lifecycle destroy@1.0.4~preinstall: destroy@1.0.4
+npm info lifecycle ee-first@1.1.1~preinstall: ee-first@1.1.1
+npm info lifecycle encodeurl@1.0.2~preinstall: encodeurl@1.0.2
+npm info lifecycle escape-html@1.0.3~preinstall: escape-html@1.0.3
+npm info lifecycle etag@1.8.1~preinstall: etag@1.8.1
+npm info lifecycle forwarded@0.1.2~preinstall: forwarded@0.1.2
+npm info lifecycle fresh@0.5.2~preinstall: fresh@0.5.2
+npm info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+npm info lifecycle ipaddr.js@1.9.1~preinstall: ipaddr.js@1.9.1
+npm info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+npm info lifecycle media-typer@0.3.0~preinstall: media-typer@0.3.0
+npm info lifecycle merge-descriptors@1.0.1~preinstall: merge-descriptors@1.0.1
+npm info lifecycle methods@1.1.2~preinstall: methods@1.1.2
+npm info lifecycle mime@1.6.0~preinstall: mime@1.6.0
+npm info lifecycle mime-db@1.45.0~preinstall: mime-db@1.45.0
+npm info lifecycle mime-types@2.1.28~preinstall: mime-types@2.1.28
+npm info lifecycle ms@2.0.0~preinstall: ms@2.0.0
+npm info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+npm info lifecycle negotiator@0.6.2~preinstall: negotiator@0.6.2
+npm info lifecycle accepts@1.3.7~preinstall: accepts@1.3.7
+npm info lifecycle on-finished@2.3.0~preinstall: on-finished@2.3.0
+npm info lifecycle on-headers@1.0.2~preinstall: on-headers@1.0.2
+npm info lifecycle parseurl@1.3.3~preinstall: parseurl@1.3.3
+npm info lifecycle path-to-regexp@0.1.7~preinstall: path-to-regexp@0.1.7
+npm info lifecycle process-nextick-args@2.0.1~preinstall: process-nextick-args@2.0.1
+npm info lifecycle proxy-addr@2.0.6~preinstall: proxy-addr@2.0.6
+npm info lifecycle qs@6.7.0~preinstall: qs@6.7.0
+npm info lifecycle range-parser@1.2.1~preinstall: range-parser@1.2.1
+npm info lifecycle safe-buffer@5.1.2~preinstall: safe-buffer@5.1.2
+npm info lifecycle basic-auth@2.0.1~preinstall: basic-auth@2.0.1
+npm info lifecycle content-disposition@0.5.3~preinstall: content-disposition@0.5.3
+npm info lifecycle safer-buffer@2.1.2~preinstall: safer-buffer@2.1.2
+npm info lifecycle iconv-lite@0.4.24~preinstall: iconv-lite@0.4.24
+npm info lifecycle ms@2.1.1~preinstall: ms@2.1.1
+npm info lifecycle setprototypeof@1.1.1~preinstall: setprototypeof@1.1.1
+npm info lifecycle sqlstring@2.3.1~preinstall: sqlstring@2.3.1
+npm info lifecycle statuses@1.5.0~preinstall: statuses@1.5.0
+npm info lifecycle streamsearch@0.1.2~preinstall: streamsearch@0.1.2
+npm info lifecycle dicer@0.3.0~preinstall: dicer@0.3.0
+npm info lifecycle busboy@0.3.1~preinstall: busboy@0.3.1
+npm info lifecycle string_decoder@1.1.1~preinstall: string_decoder@1.1.1
+npm info lifecycle toidentifier@1.0.0~preinstall: toidentifier@1.0.0
+npm info lifecycle mysql@2.17.1~preinstall: mysql@2.17.1
+npm info lifecycle morgan@1.9.1~preinstall: morgan@1.9.1
+npm info lifecycle express-fileupload@1.1.6~preinstall: express-fileupload@1.1.6
+npm info lifecycle express@4.17.1~preinstall: express@4.17.1
+npm info lifecycle vary@1.1.2~preinstall: vary@1.1.2
+npm info lifecycle utils-merge@1.0.1~preinstall: utils-merge@1.0.1
+npm info lifecycle readable-stream@2.3.6~preinstall: readable-stream@2.3.6
+npm info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+npm info lifecycle body-parser@1.19.0~preinstall: body-parser@1.19.0
+npm info lifecycle raw-body@2.4.0~preinstall: raw-body@2.4.0
+npm info lifecycle finalhandler@1.1.2~preinstall: finalhandler@1.1.2
+npm info lifecycle unpipe@1.0.0~preinstall: unpipe@1.0.0
+npm info lifecycle type-is@1.6.18~preinstall: type-is@1.6.18
+npm info lifecycle serve-static@1.14.1~preinstall: serve-static@1.14.1
+npm info lifecycle send@0.17.1~preinstall: send@0.17.1
+npm info lifecycle http-errors@1.7.2~preinstall: http-errors@1.7.2
+npm timing action:preinstall Completed in 4ms
+npm info linkStuff array-flatten@1.1.1
+npm info linkStuff bignumber.js@7.2.1
+npm info linkStuff bytes@3.1.0
+npm info linkStuff content-type@1.0.4
+npm info linkStuff cookie@0.4.0
+npm info linkStuff cookie-signature@1.0.6
+npm info linkStuff core-util-is@1.0.2
+npm info linkStuff depd@1.1.2
+npm info linkStuff destroy@1.0.4
+npm info linkStuff ee-first@1.1.1
+npm info linkStuff encodeurl@1.0.2
+npm info linkStuff escape-html@1.0.3
+npm info linkStuff etag@1.8.1
+npm info linkStuff forwarded@0.1.2
+npm info linkStuff fresh@0.5.2
+npm info linkStuff inherits@2.0.3
+npm info linkStuff ipaddr.js@1.9.1
+npm info linkStuff isarray@1.0.0
+npm info linkStuff media-typer@0.3.0
+npm info linkStuff merge-descriptors@1.0.1
+npm info linkStuff methods@1.1.2
+npm info linkStuff mime@1.6.0
+npm info linkStuff mime-db@1.45.0
+npm info linkStuff mime-types@2.1.28
+npm info linkStuff ms@2.0.0
+npm info linkStuff debug@2.6.9
+npm info linkStuff negotiator@0.6.2
+npm info linkStuff accepts@1.3.7
+npm info linkStuff on-finished@2.3.0
+npm info linkStuff on-headers@1.0.2
+npm info linkStuff parseurl@1.3.3
+npm info linkStuff path-to-regexp@0.1.7
+npm info linkStuff process-nextick-args@2.0.1
+npm info linkStuff proxy-addr@2.0.6
+npm info linkStuff qs@6.7.0
+npm info linkStuff range-parser@1.2.1
+npm info linkStuff safe-buffer@5.1.2
+npm info linkStuff basic-auth@2.0.1
+npm info linkStuff content-disposition@0.5.3
+npm info linkStuff safer-buffer@2.1.2
+npm info linkStuff iconv-lite@0.4.24
+npm info linkStuff ms@2.1.1
+npm info linkStuff setprototypeof@1.1.1
+npm info linkStuff sqlstring@2.3.1
+npm info linkStuff statuses@1.5.0
+npm info linkStuff streamsearch@0.1.2
+npm info linkStuff dicer@0.3.0
+npm info linkStuff busboy@0.3.1
+npm info linkStuff string_decoder@1.1.1
+npm info linkStuff toidentifier@1.0.0
+npm info linkStuff http-errors@1.7.2
+npm info linkStuff send@0.17.1
+npm info linkStuff serve-static@1.14.1
+npm info linkStuff type-is@1.6.18
+npm info linkStuff unpipe@1.0.0
+npm info linkStuff finalhandler@1.1.2
+npm info linkStuff raw-body@2.4.0
+npm info linkStuff body-parser@1.19.0
+npm info linkStuff util-deprecate@1.0.2
+npm info linkStuff readable-stream@2.3.6
+npm info linkStuff utils-merge@1.0.1
+npm info linkStuff vary@1.1.2
+npm info linkStuff express@4.17.1
+npm info linkStuff express-fileupload@1.1.6
+npm info linkStuff morgan@1.9.1
+npm info linkStuff mysql@2.17.1
+npm timing action:build Completed in 12ms
+npm info lifecycle array-flatten@1.1.1~install: array-flatten@1.1.1
+npm info lifecycle bignumber.js@7.2.1~install: bignumber.js@7.2.1
+npm info lifecycle bytes@3.1.0~install: bytes@3.1.0
+npm info lifecycle content-type@1.0.4~install: content-type@1.0.4
+npm info lifecycle cookie@0.4.0~install: cookie@0.4.0
+npm info lifecycle cookie-signature@1.0.6~install: cookie-signature@1.0.6
+npm info lifecycle core-util-is@1.0.2~install: core-util-is@1.0.2
+npm info lifecycle depd@1.1.2~install: depd@1.1.2
+npm info lifecycle destroy@1.0.4~install: destroy@1.0.4
+npm info lifecycle ee-first@1.1.1~install: ee-first@1.1.1
+npm info lifecycle encodeurl@1.0.2~install: encodeurl@1.0.2
+npm info lifecycle escape-html@1.0.3~install: escape-html@1.0.3
+npm info lifecycle etag@1.8.1~install: etag@1.8.1
+npm info lifecycle forwarded@0.1.2~install: forwarded@0.1.2
+npm info lifecycle fresh@0.5.2~install: fresh@0.5.2
+npm info lifecycle inherits@2.0.3~install: inherits@2.0.3
+npm info lifecycle ipaddr.js@1.9.1~install: ipaddr.js@1.9.1
+npm info lifecycle isarray@1.0.0~install: isarray@1.0.0
+npm info lifecycle media-typer@0.3.0~install: media-typer@0.3.0
+npm info lifecycle merge-descriptors@1.0.1~install: merge-descriptors@1.0.1
+npm info lifecycle methods@1.1.2~install: methods@1.1.2
+npm info lifecycle mime@1.6.0~install: mime@1.6.0
+npm info lifecycle mime-db@1.45.0~install: mime-db@1.45.0
+npm info lifecycle mime-types@2.1.28~install: mime-types@2.1.28
+npm info lifecycle ms@2.0.0~install: ms@2.0.0
+npm info lifecycle debug@2.6.9~install: debug@2.6.9
+npm info lifecycle negotiator@0.6.2~install: negotiator@0.6.2
+npm info lifecycle accepts@1.3.7~install: accepts@1.3.7
+npm info lifecycle on-finished@2.3.0~install: on-finished@2.3.0
+npm info lifecycle on-headers@1.0.2~install: on-headers@1.0.2
+npm info lifecycle parseurl@1.3.3~install: parseurl@1.3.3
+npm info lifecycle path-to-regexp@0.1.7~install: path-to-regexp@0.1.7
+npm info lifecycle process-nextick-args@2.0.1~install: process-nextick-args@2.0.1
+npm info lifecycle proxy-addr@2.0.6~install: proxy-addr@2.0.6
+npm info lifecycle qs@6.7.0~install: qs@6.7.0
+npm info lifecycle range-parser@1.2.1~install: range-parser@1.2.1
+npm info lifecycle safe-buffer@5.1.2~install: safe-buffer@5.1.2
+npm info lifecycle basic-auth@2.0.1~install: basic-auth@2.0.1
+npm info lifecycle content-disposition@0.5.3~install: content-disposition@0.5.3
+npm info lifecycle safer-buffer@2.1.2~install: safer-buffer@2.1.2
+npm info lifecycle iconv-lite@0.4.24~install: iconv-lite@0.4.24
+npm info lifecycle ms@2.1.1~install: ms@2.1.1
+npm info lifecycle setprototypeof@1.1.1~install: setprototypeof@1.1.1
+npm info lifecycle sqlstring@2.3.1~install: sqlstring@2.3.1
+npm info lifecycle statuses@1.5.0~install: statuses@1.5.0
+npm info lifecycle streamsearch@0.1.2~install: streamsearch@0.1.2
+npm info lifecycle dicer@0.3.0~install: dicer@0.3.0
+npm info lifecycle busboy@0.3.1~install: busboy@0.3.1
+npm info lifecycle string_decoder@1.1.1~install: string_decoder@1.1.1
+npm info lifecycle toidentifier@1.0.0~install: toidentifier@1.0.0
+npm info lifecycle http-errors@1.7.2~install: http-errors@1.7.2
+npm info lifecycle send@0.17.1~install: send@0.17.1
+npm info lifecycle serve-static@1.14.1~install: serve-static@1.14.1
+npm info lifecycle type-is@1.6.18~install: type-is@1.6.18
+npm info lifecycle unpipe@1.0.0~install: unpipe@1.0.0
+npm info lifecycle finalhandler@1.1.2~install: finalhandler@1.1.2
+npm info lifecycle raw-body@2.4.0~install: raw-body@2.4.0
+npm info lifecycle body-parser@1.19.0~install: body-parser@1.19.0
+npm info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+npm info lifecycle readable-stream@2.3.6~install: readable-stream@2.3.6
+npm info lifecycle utils-merge@1.0.1~install: utils-merge@1.0.1
+npm info lifecycle vary@1.1.2~install: vary@1.1.2
+npm info lifecycle express@4.17.1~install: express@4.17.1
+npm info lifecycle express-fileupload@1.1.6~install: express-fileupload@1.1.6
+npm info lifecycle morgan@1.9.1~install: morgan@1.9.1
+npm info lifecycle mysql@2.17.1~install: mysql@2.17.1
+npm timing action:install Completed in 9ms
+npm info lifecycle array-flatten@1.1.1~postinstall: array-flatten@1.1.1
+npm info lifecycle bignumber.js@7.2.1~postinstall: bignumber.js@7.2.1
+npm info lifecycle bytes@3.1.0~postinstall: bytes@3.1.0
+npm info lifecycle content-type@1.0.4~postinstall: content-type@1.0.4
+npm info lifecycle cookie@0.4.0~postinstall: cookie@0.4.0
+npm info lifecycle cookie-signature@1.0.6~postinstall: cookie-signature@1.0.6
+npm info lifecycle core-util-is@1.0.2~postinstall: core-util-is@1.0.2
+npm info lifecycle depd@1.1.2~postinstall: depd@1.1.2
+npm info lifecycle destroy@1.0.4~postinstall: destroy@1.0.4
+npm info lifecycle ee-first@1.1.1~postinstall: ee-first@1.1.1
+npm info lifecycle encodeurl@1.0.2~postinstall: encodeurl@1.0.2
+npm info lifecycle escape-html@1.0.3~postinstall: escape-html@1.0.3
+npm info lifecycle etag@1.8.1~postinstall: etag@1.8.1
+npm info lifecycle forwarded@0.1.2~postinstall: forwarded@0.1.2
+npm info lifecycle fresh@0.5.2~postinstall: fresh@0.5.2
+npm info lifecycle inherits@2.0.3~postinstall: inherits@2.0.3
+npm info lifecycle ipaddr.js@1.9.1~postinstall: ipaddr.js@1.9.1
+npm info lifecycle isarray@1.0.0~postinstall: isarray@1.0.0
+npm info lifecycle media-typer@0.3.0~postinstall: media-typer@0.3.0
+npm info lifecycle merge-descriptors@1.0.1~postinstall: merge-descriptors@1.0.1
+npm info lifecycle methods@1.1.2~postinstall: methods@1.1.2
+npm info lifecycle mime@1.6.0~postinstall: mime@1.6.0
+npm info lifecycle mime-db@1.45.0~postinstall: mime-db@1.45.0
+npm info lifecycle mime-types@2.1.28~postinstall: mime-types@2.1.28
+npm info lifecycle ms@2.0.0~postinstall: ms@2.0.0
+npm info lifecycle debug@2.6.9~postinstall: debug@2.6.9
+npm info lifecycle negotiator@0.6.2~postinstall: negotiator@0.6.2
+npm info lifecycle accepts@1.3.7~postinstall: accepts@1.3.7
+npm info lifecycle on-finished@2.3.0~postinstall: on-finished@2.3.0
+npm info lifecycle on-headers@1.0.2~postinstall: on-headers@1.0.2
+npm info lifecycle parseurl@1.3.3~postinstall: parseurl@1.3.3
+npm info lifecycle path-to-regexp@0.1.7~postinstall: path-to-regexp@0.1.7
+npm info lifecycle process-nextick-args@2.0.1~postinstall: process-nextick-args@2.0.1
+npm info lifecycle proxy-addr@2.0.6~postinstall: proxy-addr@2.0.6
+npm info lifecycle qs@6.7.0~postinstall: qs@6.7.0
+npm info lifecycle range-parser@1.2.1~postinstall: range-parser@1.2.1
+npm info lifecycle safe-buffer@5.1.2~postinstall: safe-buffer@5.1.2
+npm info lifecycle basic-auth@2.0.1~postinstall: basic-auth@2.0.1
+npm info lifecycle content-disposition@0.5.3~postinstall: content-disposition@0.5.3
+npm info lifecycle safer-buffer@2.1.2~postinstall: safer-buffer@2.1.2
+npm info lifecycle iconv-lite@0.4.24~postinstall: iconv-lite@0.4.24
+npm info lifecycle ms@2.1.1~postinstall: ms@2.1.1
+npm info lifecycle setprototypeof@1.1.1~postinstall: setprototypeof@1.1.1
+npm info lifecycle sqlstring@2.3.1~postinstall: sqlstring@2.3.1
+npm info lifecycle statuses@1.5.0~postinstall: statuses@1.5.0
+npm info lifecycle streamsearch@0.1.2~postinstall: streamsearch@0.1.2
+npm info lifecycle dicer@0.3.0~postinstall: dicer@0.3.0
+npm info lifecycle busboy@0.3.1~postinstall: busboy@0.3.1
+npm info lifecycle string_decoder@1.1.1~postinstall: string_decoder@1.1.1
+npm info lifecycle toidentifier@1.0.0~postinstall: toidentifier@1.0.0
+npm info lifecycle http-errors@1.7.2~postinstall: http-errors@1.7.2
+npm info lifecycle send@0.17.1~postinstall: send@0.17.1
+npm info lifecycle serve-static@1.14.1~postinstall: serve-static@1.14.1
+npm info lifecycle type-is@1.6.18~postinstall: type-is@1.6.18
+npm info lifecycle unpipe@1.0.0~postinstall: unpipe@1.0.0
+npm info lifecycle finalhandler@1.1.2~postinstall: finalhandler@1.1.2
+npm info lifecycle raw-body@2.4.0~postinstall: raw-body@2.4.0
+npm info lifecycle body-parser@1.19.0~postinstall: body-parser@1.19.0
+npm info lifecycle util-deprecate@1.0.2~postinstall: util-deprecate@1.0.2
+npm info lifecycle readable-stream@2.3.6~postinstall: readable-stream@2.3.6
+npm info lifecycle utils-merge@1.0.1~postinstall: utils-merge@1.0.1
+npm info lifecycle vary@1.1.2~postinstall: vary@1.1.2
+npm info lifecycle express@4.17.1~postinstall: express@4.17.1
+npm info lifecycle express-fileupload@1.1.6~postinstall: express-fileupload@1.1.6
+npm info lifecycle morgan@1.9.1~postinstall: morgan@1.9.1
+npm info lifecycle mysql@2.17.1~postinstall: mysql@2.17.1
+npm timing action:postinstall Completed in 7ms
+npm timing stage:executeActions Completed in 3439ms
+npm timing stage:rollbackFailedOptional Completed in 0ms
+npm info linkStuff pad-server-app@1.0.0
+npm info lifecycle pad-server-app@1.0.0~install: pad-server-app@1.0.0
+npm info lifecycle pad-server-app@1.0.0~postinstall: pad-server-app@1.0.0
+npm timing stage:runTopLevelLifecycles Completed in 8694ms
+npm info lifecycle undefined~preshrinkwrap: undefined
+npm info lifecycle undefined~shrinkwrap: undefined
+npm info lifecycle undefined~postshrinkwrap: undefined
+added 66 packages from 50 contributors and audited 332 packages in 8.823s
+found 0 vulnerabilities
+
+npm timing npm Completed in 9510ms
+npm info ok 
+Setting internal port to 8080...
+Setting environment to DEV...
+Setting additional environment variables...
+Starting application...
+{ host: 'db.hbo-ict.cloud',
+  timeout: 30000,
+  username: 'pad_hip_7',
+  password: 'Hh38JqEn9QpIiu1I',
+  database: 'pad_hip_7_dev',
+  connectionLimit: 1 }
+PAD Framework app listening on port 8080 for environment DEV!
+RowDataPacket { username: 'test', password: 'test', id: 1, role: 0 }
+::ffff:145.92.224.225 - POST /user/login HTTP/1.1 200 39 - 18.979 ms
+::ffff:145.92.224.225 - POST /rehabilitator/goal/daily HTTP/1.1 200 23 - 2.380 ms
+::ffff:145.92.224.225 - POST /rehabilitator/goal/total HTTP/1.1 200 24 - 1.002 ms
+::ffff:145.92.224.225 - POST /pam HTTP/1.1 200 1906 - 2.779 ms
+::ffff:145.92.224.225 - POST /rehabilitator/activities HTTP/1.1 200 445 - 2.807 ms
+[ RowDataPacket { pam_score: 9.67, date: 2020-01-01T00:00:00.000Z },
+  RowDataPacket { pam_score: 9.34, date: 2020-01-02T00:00:00.000Z },
+  RowDataPacket { pam_score: 9.2, date: 2020-01-03T00:00:00.000Z },
+  RowDataPacket { pam_score: 6, date: 2010-04-05T00:00:00.000Z },
+  RowDataPacket { pam_score: 8, date: 2021-04-18T00:00:00.000Z },
+  RowDataPacket { pam_score: 7, date: 2021-04-17T00:00:00.000Z },
+  RowDataPacket { pam_score: 12, date: 2021-04-12T00:00:00.000Z } ]
+::ffff:145.92.224.225 - POST /user/data HTTP/1.1 200 360 - 2.105 ms
+::ffff:145.92.224.225 - POST /rehabilitator/goal/daily HTTP/1.1 200 2 - 0.960 ms
+::ffff:145.92.224.225 - POST /rehabilitator/goal/total HTTP/1.1 200 2 - 0.605 ms
+X:\node_modules\mysql\lib\protocol\Parser.js:437
+      throw err; // Rethrow non-MySQL errors
+      ^
+
+TypeError: Cannot read property 'id' of undefined
+    at db.handleQuery (X:\app.js:87:29)
+    at Query.connectionPool.query (X:\utils\databaseHelper.js:65:13)
+    at Query.<anonymous> (X:\node_modules\mysql\lib\Connection.js:525:10)
+    at Query._callback (X:\node_modules\mysql\lib\Connection.js:491:16)
+    at Query.Sequence.end (X:\node_modules\mysql\lib\protocol\sequences\Sequence.js:83:24)
+    at Query._handleFinalResultPacket (X:\node_modules\mysql\lib\protocol\sequences\Query.js:139:8)
+    at Query.EofPacket (X:\node_modules\mysql\lib\protocol\sequences\Query.js:123:8)
+    at Protocol._parsePacket (X:\node_modules\mysql\lib\protocol\Protocol.js:291:23)
+    at Parser._parsePacket (X:\node_modules\mysql\lib\protocol\Parser.js:433:10)
+    at Parser.write (X:\node_modules\mysql\lib\protocol\Parser.js:43:10)

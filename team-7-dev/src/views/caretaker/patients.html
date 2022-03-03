@@ -1,0 +1,254 @@
+<div class="category-container row justify-content-md-center">
+    <div class="col-lg-6 ">
+        <div class="w-100 pad-caretaker-header-title text-center d-flex flex-column">
+            PATIËNTEN
+            <button class="btn-edit-green btn-add--profile mt-2 btn-secondary" data-toggle="modal"
+                    data-target="#editModal">Voeg patient toe
+            </button>
+        </div>
+    </div>
+</div>
+<div id="patient-holder">
+
+</div>
+
+<div class="block-primary category-container row justify-content-md-center">
+    <div class="col-lg-6 pad-container">
+        <div class="w-100 pad-caretaker-header1 d-inline-flex flex-wrap justify-content-center">
+            <h3 class="ct-header ct-name"></h3>
+            <h3 class="ct-header ct-lastname"></h3>
+        </div>
+        <div class="w-100 pad-caretaker-content">
+            <div class="profile-side-content row pb-3">
+                <div class="col-lg-5 image-border1">
+                    <img class="imgpatient" id="file_uploader" onerror="if (this.src !== 'error.jpg') this.src = 'assets/img/default_image.png';" alt="patient1">
+                </div>
+                <div class="col-lg-5 caretaker-rehabilitator-text">
+                    <p class="ct-year"></p>
+                    <p class="ct-gender"></p>
+                    <p class="ct-bloodtype"></p>
+                    <p class="ct-status"></p>
+                    <p class="ct-contacttitle"><b>Contact:</b></p>
+                    <p class="ct-phonenumber"></p>
+                    <p class="ct-mail"></p>
+                    <button type="button" class="file_uploader_open btn default-button mr-2" data-toggle="modal" data-target="#exampleModal">
+                        Profielfoto aanpassen
+                    </button>
+                </div>
+            </div>
+
+            <h3 class="mb-2"><b>Progressie</b></h3>
+            <div class="progress-anchor">
+
+            </div>
+            <h3 class="mb-2"><b>Beschrijving</b></h3>
+            <p class="ct-description"></p>
+            <div class="d-flex justify-content-around buttongroup btn-group">
+                <button class="btn-edit-green btn-edit--appointment btn-secondary" data-toggle="modal"
+                        data-target="#editAppointment">Afspraak aanpassen
+                </button>
+                <button class="btn-edit-green btn-edit--profile btn-secondary" data-toggle="modal"
+                        data-target="#editModal">Profiel bewerken
+                </button>
+                <button class="btn-edit btn-edit--profile btn-delete--open btn-danger" data-toggle="modal"
+                        data-target="#deleteModal">VERWIJDER
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Pagination -->
+<div class="category-container row justify-content-md-center mt-5">
+    <nav aria-label="...">
+        <ul class="pagination pagination-lg" id="patient-pagination">
+        </ul>
+    </nav>
+</div>
+
+
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="pad-caretaker-header1 modal-header">
+            <div id="modal-title modal-title--edit" id="editModalLabel">BEWERK AFSPRAAK</div>
+            <button type="button" class="pad-modal-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-content pad-caretaker-content">
+            <div class="modal-body">
+                <!--    Form for editing  -->
+                <form class="edit-form">
+                    <div class="form-group">
+                        <label for="usernameAdd">Username:</label>
+                        <input type="text" class="form-control" id="userNameAdd" placeholder="Gebruikersnaam:">
+                        <small id="usernameError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="passwordAdd">Wachtwoord:</label>
+                        <input type="password" class="form-control" id="passwordAdd" placeholder="Wachtwoord:">
+                        <small id="passwordError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="firstNameEdit">Voornaam:</label>
+                        <input type="text" class="form-control" id="firstNameEdit" placeholder="Voornaam:">
+                        <small id="firstnameError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastNameEdit">Achternaam:</label>
+                        <input type="text" class="form-control" id="lastNameEdit" placeholder="Achternaam:">
+                        <small id="lastnameError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="birthdateEdit">Geboortedatum:</label>
+                        <input type="date" class="form-control" id="birthdateEdit" placeholder="Geboortedatum:">
+                        <small id="birthdateError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <p class="gender-edit--title">Geslacht:</p>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="genderRadio" id="genderManEdit"
+                                   value="Man">
+                            <label class="form-check-label" for="genderManEdit">
+                                Man
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="genderRadio" id="genderWomanEdit"
+                                   value="Vrouw">
+                            <label class="form-check-label" for="genderWomanEdit">
+                                Vrouw
+                            </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="genderRadio" id="genderNoneEdit"
+                                   value="Niet gespecificeerd">
+                            <label class="form-check-label" for="genderNoneEdit">
+                                Niet gespecificeerd
+                            </label>
+                        </div>
+                        <small id="genderError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="adresEdit">Adress:</label>
+                        <input type="text" class="form-control" id="adresEdit" placeholder="Adres:">
+                        <small id="adresError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="postcodeEdit">Postcode:</label>
+                        <input type="text" class="form-control" id="postcodeEdit" placeholder="Postcode:">
+                        <small id="postcodeError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="bloodEdit">Bloedtype:</label>
+                        <input type="text" class="form-control" id="bloodEdit" placeholder="Bloedtype:">
+                        <small id="bloodtypeError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="statusEdit">Status:</label>
+                        <input type="text" class="form-control" id="statusEdit" placeholder="Status:">
+                        <small id="statusError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneEdit">Telefoon:</label>
+                        <input type="text" class="form-control" id="phoneEdit" placeholder="Telefoon:">
+                        <small id="phoneError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailEdit">Email:</label>
+                        <input type="email" class="form-control" id="emailEdit" placeholder="Email:">
+                        <small id="emailError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionEdit">Beschrijving:</label>
+                        <textarea class="form-control" id="descriptionEdit" rows="5" cols="5"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn default-button mr-2 submit-btn--modal edit-btn--submit">
+                    Bevestigen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal for deleting-->
+<div class="modal fade" id="deleteModal" tabindex="-1" role="dialog" aria-labelledby="deleteModal" aria-hidden="true">
+
+    <div class="modal-dialog" role="document">
+        <div class="pad-caretaker-header1 modal-header">
+            <div class="modal-title" id="deleteModalLabel">Verwijder</div>
+            <button type="button" class="pad-modal-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-content pad-caretaker-content">
+            <div class="modal-body">
+                <p class="delete-user--body_text">Weet je zeker dat je gebruiker wilt verwijderen</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-delete--confirm btn-danger" data-dismiss="modal">Verwijder</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal for appointments-->
+<div class="modal fade" id="editAppointment" tabindex="-2" role="dialog" aria-labelledby="editAppointment" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="pad-caretaker-header1 modal-header">
+            <div id="modal-title">BEWERK AFSPRAAK</div>
+            <button type="button" class="pad-modal-close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+
+        <div class="modal-content pad-caretaker-content">
+            <div class="modal-body">
+                <h3 class="mb-2"><b>Voorbeeld:</b></h3>
+                <div id="modal-progress-anchor"></div>
+                <form class="edit-form" id="edit-form-appointment">
+                    <div class="form-group">
+                        <label for="descriptionEdit">Afspraak datum:</label>
+                        <input type="date" class="form-control" id="appointment-date-edit" placeholder="Geboortedatum:">
+                        <small id="appointment-date-error" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionEdit">Totaaldoel:</label>
+                        <input type="number" class="form-control" id="appointment-totalgoal" name="totalgoal">
+                        <small id="appointment-totalgoal-error" class="form-text text-danger"></small>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="submit" class="btn default-button mr-2 submit-btn--modal submit-btn--appointment">
+                    Bevestigen
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Modal for image preview caretaker-->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="pad-container-header">
+            <div id="exampleModalLabel">PROFIEL FOTO AANPASSEN</div>
+        </div>
+        <div class="modal-content pad-container-content">
+            <div class="modal-body upload-center">
+                <img class="upload-center upload-preview" id="file_uploader_popup" src="https://qph.fs.quoracdn.net/main-qimg-2b21b9dd05c757fe30231fac65b504dd"
+                     onerror="if (this.src !== 'error.jpg') this.src = 'assets/img/default_image.png';" alt="Revalidant">
+                <input class="upload-center" type="file" id="fileUpload" name="profile_picture" accept="image/*">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Sluiten</button>
+                <button type="button" class="btn submit-btn--modal default-button mr-2" id="file_uploader_save" data-dismiss="modal" disabled>Bevestigen</button>
+            </div>
+        </div>
+    </div>
+</div>

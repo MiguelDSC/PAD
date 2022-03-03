@@ -1,0 +1,109 @@
+<div class="category-container row justify-content-md-center">
+    <div class="col-lg-6 pad-container">
+        <div class="w-100 pad-caretaker-header-title">
+            <span class="name_caretaker"></span>
+        </div>
+        <div class="w-100 pad-caretaker-content">
+            <div class="profile-side-content row pb-3">
+                <div class="col-lg-5 image-border1">
+                    <img class="imgcaregiver profile_pic_caretaker" src=""
+                         onerror="if (this.src !== 'error.jpg') this.src = 'assets/img/default_image.png';" alt="verzorger">
+                </div>
+                <div class="col-lg-5 rehabilitator-text">
+                    <p><small>
+                        <ins>Contact:</ins>
+                        <br>
+                        Naam: <span class="name_caretaker"></span><br>
+                        Telefoon: <span class="phone_caretaker"></span><br>
+                        E-Mail: <span class="email_caretaker"></span><br>
+
+                        <ins>Ervaring:</ins>
+                        <br>
+                        <span class="experience1_caretaker"></span><br>
+                        <span class="experience2_caretaker"></span><br>
+                        <span class="experience3_caretaker"></span><br>
+
+                    </small></p>
+                </div>
+            </div>
+
+            <h3 class="mb-2"><b>Beschrijving</b></h3>
+            <p>
+                <span class="description_caretaker"></span>
+            </p>
+
+            <div class="d-flex justify-content-around buttongroup col-lg-5">
+                <button class="btn-edit-green btn-edit--caretaker btn-secondary" data-toggle="modal"
+                        data-target="#editModal">Profiel bewerken
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Modal for editing -->
+<div class="modal fade" id="editModal" tabindex="-1" role="dialog" aria-labelledby="editModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content modal-lg">
+            <div class="modal-header">
+                <h5 class="modal-title modal-title--edit" id="editModalLabel">Bewerk</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body edit-modal-body">
+                <!--    Form for editing  -->
+                <form class="edit-form" method="post">
+<!--                    <div class="form-group">-->
+<!--                        <label for="usernameAdd">Username:</label>-->
+<!--                        <input type="text" class="form-control" id="userNameAdd" placeholder="Gebruikersnaam:">-->
+<!--                        <small id="usernameError" class="form-text text-danger"></small>-->
+<!--                    </div>-->
+<!--                    <div class="form-group">-->
+<!--                        <label for="passwordAdd">Wachtwoord:</label>-->
+<!--                        <input type="password" class="form-control" id="passwordAdd" placeholder="Wachtwoord:">-->
+<!--                        <small id="passwordError" class="form-text text-danger"></small>-->
+<!--                    </div>-->
+                    <div class="form-group">
+                        <label for="firstNameEdit">Voornaam:</label>
+                        <input type="text" class="form-control" id="firstNameEdit" placeholder="Voornaam:">
+                        <small id="firstnameError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="lastNameEdit">Achternaam:</label>
+                        <input type="text" class="form-control" id="lastNameEdit" placeholder="Achternaam:">
+                        <small id="lastnameError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="emailEdit">Email:</label>
+                        <input type="email" class="form-control" id="emailEdit" placeholder="Email:">
+                        <small id="emailError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="phoneEdit">Telefoon:</label>
+                        <input type="text" class="form-control" id="phoneEdit" placeholder="Telefoon:">
+                        <small id="phoneEditError" class="form-text text-danger"></small>
+                    </div>
+                    <div class="form-group">
+                        <label for="descriptionEdit">Beschrijving:</label>
+                        <textarea class="form-control" id="descriptionEdit" rows="5" cols="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="experienceOneEdit">Ervaring 1:</label>
+                        <textarea class="form-control" id="experienceOneEdit" rows="5" cols="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="experienceTwoEdit">Ervaring 2:</label>
+                        <textarea class="form-control" id="experienceTwoEdit" rows="5" cols="5"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="experienceThreeEdit">Ervaring 3:</label>
+                        <textarea class="form-control" id="experienceThreeEdit" rows="5" cols="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary edit-btn--submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

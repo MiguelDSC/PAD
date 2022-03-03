@@ -1,0 +1,160 @@
+:root {
+    --color-category-current: #c4c4c4;
+    --color-category-default: #c4c4c4;
+    --color-category-home: #86c7c3;
+    --color-category-goals: #709963;
+    --color-category-statistics: #9697c5;
+    --color-category-profile: #dd9d75;
+    --color-category-social: #c05b73;
+    --color-subcategory-notifications: #ffa447;
+
+    --color-hover-element: #e4e4e4;
+    --color-text: #666666;
+
+    --color-progress-previous: #bdf1ab;
+    --color-progress-yesterday: #8cdf77;
+    --color-progress-current: #f6bd28;
+    --color-progress-goal: #f6db90;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+p {
+    font-size: 22px;
+}
+
+h3 {
+    font-size: 30px;
+    color: var(--color-text);
+}
+
+.content {
+    margin-top: 32px;
+}
+
+.category-container {
+    justify-content: center !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+/* Pad Container */
+.pad-container-header {
+    background-color: var(--color-category-current);
+    border: 4px solid var(--color-category-current);
+    border-bottom: none;
+    border-radius: 30px 30px 0 0;
+    height: auto;
+    padding-left: 16px;
+    padding-bottom: 4px;
+
+    /* text */
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+    line-height: 40px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.modal-dialog .pad-container-header{
+    line-height: 48px;
+    padding: 0.2rem 1rem !important;
+}
+
+.image-border {
+    max-width: 100%;
+}
+
+.pad-container-content {
+    border: 4px solid var(--color-category-current);
+    background-color: #ffffff;
+    border-top: none;
+    border-radius: 0 0 30px 30px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    margin-bottom: 64px;
+}
+
+.btn-primary {
+    background-color: #27AE60;
+    border-radius: 15px;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    margin-left: 25%;
+}
+
+.btn-primary:hover {
+    background-color: var(--color-category-current);
+    border-radius: 15px;
+    font-weight: bold;
+    width: 50%;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Set backgroud color for stats button */
+.default-button {
+    color: white;
+    background-color: var(--color-category-current);
+}
+
+.default-button:hover {
+    color: white;
+    filter: brightness(110%);
+}
+
+input[type=text], input[type=password] {
+    width: 100% !important;
+    /*text-align: center;*/
+    border-radius: 15px !important;
+}
+
+.logintext {
+    text-align: center;
+}
+
+#help {
+    text-align: center;
+}
+
+.logininput {
+    margin-top: 5%;
+}
+
+.imagelogo {
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.upload-center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.upload-preview {
+    max-width: 324px !important;
+    max-height: 300px;
+    padding-bottom: 16px;
+}
+
+.pad-modal-close {
+    float: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #ffffff;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1;
+    background-color: transparent !important;
+    border: 0 !important;
+}

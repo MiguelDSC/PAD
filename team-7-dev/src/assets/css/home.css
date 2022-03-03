@@ -1,0 +1,95 @@
+.wrapper-home .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+
+.container-fluid {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 180px;
+
+
+}
+
+.col12 {
+    height: 80%;
+    margin-bottom: 50px;
+}
+
+.avatar img {
+    margin: 0 auto;
+}
+
+#welkom-text {
+    width: 100%;
+    height: 100%;
+    word-wrap:break-word;
+
+
+}
+
+#speech-bubble {
+    width: 215px;
+    height: 104px;
+    top: 50px;
+    left: 35px;
+    position: absolute;
+
+}
+
+.col3 {
+    height: 200px;
+    /*padding-left: 30px !important;*/
+    /*padding-right:30px !important;*/
+    padding-bottom: 10px;
+}
+
+.cards-row {
+    max-width: 80%;
+
+}
+
+.cards {
+    background-color: #86C7C3;
+    height: 100%;
+    width: 90%;
+    border-radius: 20px;
+    color: white;
+    margin: auto;
+    min-width: 180px;
+    margin-bottom: 10px;
+
+}
+
+.cards:hover {
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
+.col3 a:visited, a:hover, a:active {
+    text-decoration: none !important;
+
+}
+
+.cards h2{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 5px 5px 5px;
+}
+
+.cards p {
+    text-align: center;
+    padding: 20px 5px 5px;
+}
+
+@media all and (max-width: 991px) {
+    .cards-row {
+        margin-top: 100px;
+    }
+}
+
